@@ -24,3 +24,12 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/vibhu2208/ecommerence-backend
    cd ecommerce-backend
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Set up environment variables:
+
+Create a .env file in the root directory and add the following:
+   ```bash
+   PORT=3000
+MONGODB_URI=your_mongodb_uri
