@@ -27,9 +27,23 @@ To run this project locally, follow these steps:
 2. **Install dependencies:**
    ```bash
    npm install
-3. **Set up environment variables:
+3. **Set up environment variables:**
 
 Create a .env file in the root directory and add the following:
    ```bash
    PORT=3000
-MONGODB_URI=your_mongodb_uri
+   MONGODB_URI=your_mongodb_uri
+
+## 4.**Seed the database (if not already seeded):**
+
+``bash
+
+node seed.js
+5.Run the server:
+
+bash
+
+node index.js
+Access the API endpoints:
+
+You can now access the API endpoints at http://localhost:3000.
