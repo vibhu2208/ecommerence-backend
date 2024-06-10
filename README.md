@@ -24,8 +24,8 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/vibhu2208/ecommerence-backend
 
-Install dependencies:
-bash
+## Install dependencies:
+```bash
 Copy code
 cd ecommerce-project
 npm install
